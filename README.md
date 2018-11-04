@@ -34,4 +34,5 @@ Answer: This way ensures that the implemented code is appropriate for its purpos
 
 Create a unit test for our Car class to test our “painting” method.
 A car should have a driver. Create an instance_double Driver. Write a second test for this and make it pass.
+
 Answer: See: tech_interview_w1/car/spec/spec_car.rb
