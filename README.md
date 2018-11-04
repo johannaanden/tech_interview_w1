@@ -1,4 +1,4 @@
-## Question 3 - Classes and Methods
+# Question 3 - Classes and Methods
 
 Create a new folder called `cars` and inside of that folder, 
 create a file called `car.rb` with:
@@ -9,11 +9,10 @@ Open irb.
 Load your `'car.rb'` file. 
 Create an instance of a Car and change its `color`.
 
-#ANSWER: 
-See: tech_interview_w1/car/lib/car.rb
+Answer: See: tech_interview_w1/car/lib/car.rb
 
 
-# How to run the cod in irb
+## How to run the cod in irb
 1. In terminal type: $ cd Car
 2. In terminal type: $ irb 
 3. Irb starts
@@ -24,18 +23,15 @@ See: tech_interview_w1/car/lib/car.rb
 
 ------------------------
 
-## Question 4 - Rspec
+# Question 4 - Rspec
 (Please use your text file to put your answers in)
 
 How do you initialize rspec in a folder? Do it in our cars folder.
-# ANSWER: 
-You type rspec --init in the terminal
+Answer: You type rspec --init in the terminal
 
 We would ordinarily have written our tests first, then written code to make them pass. Why?
-# ANSWER: 
-This way ensures that the implemented code is appropriate for its purpose, but also helps you as a developer to think about the design of the code you are writing. It focuses on small steps that ultimately result in solid, functioning software.
+Answer: This way ensures that the implemented code is appropriate for its purpose, but also helps you as a developer to think about the design of the code you are writing. It focuses on small steps that ultimately result in solid, functioning software.
 
 Create a unit test for our Car class to test our “painting” method.
 A car should have a driver. Create an instance_double Driver. Write a second test for this and make it pass.
-# ANSWER: 
-See: tech_interview_w1/car/spec/spec_car.rb
+Answer: See: tech_interview_w1/car/spec/spec_car.rb
